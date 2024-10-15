@@ -21,10 +21,9 @@
   "author": "CielSachen",
   "type": "module",
   "exports": "./src/index.js",
-  "types": "./types/index.d.ts",
+  "types": "./src/index.d.ts",
   "files": [
-    "src",
-    "types"
+    "src"
   ],
   "scripts": {
     "format": "prettier --write .",

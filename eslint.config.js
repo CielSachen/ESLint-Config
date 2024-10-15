@@ -19,7 +19,7 @@ export default tseslint.config(
 
   // Disable TypeScript-only rules because this project only uses a JSConfig.
   {
-    files: ["types/*"],
+    files: ["src/*.d.ts"],
     extends: [tseslint.configs.disableTypeChecked],
     rules: { "@typescript-eslint/explicit-function-return-type": "off" },
   },
