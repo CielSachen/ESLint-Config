@@ -1,6 +1,6 @@
 {
   "name": "@cielsachen/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CielSachen's different ESLint configs.",
   "keywords": [
     "eslint",
