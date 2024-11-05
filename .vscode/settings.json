@@ -1,8 +1,6 @@
 {
   /* Text Editor */
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.detectIndentation": true,
-  "editor.insertSpaces": true,
   "editor.tabSize": 2,
   /* Text Editor - Formatting */
   "editor.formatOnSave": true,
