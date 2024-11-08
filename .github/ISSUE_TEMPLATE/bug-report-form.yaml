@@ -47,7 +47,7 @@ body:
       description: |
         Example:
         - OS: [e.g. MacOS, Windows]
-        - Node.js Version: [e.g. 20.x]
+        - Node.js Version: [e.g. 22.x]
         - Package Manager: [e.g. pnpm (9.x)]
       value: |
         - OS:
