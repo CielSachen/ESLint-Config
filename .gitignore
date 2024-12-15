@@ -1,12 +1,10 @@
-# IDE: Visual Studio Code Settings Directory
+# Visual Studio Code
 .vscode/**/*
 !.vscode/extensions.json
 !.vscode/settings.json
 
-# Node.js: Dependency Directory
+# Node.js
 node_modules/
-
-# PNPM: Dependency Installation Debug Log File
 .pnpm-debug.log*
 
 # Miscellaneous
