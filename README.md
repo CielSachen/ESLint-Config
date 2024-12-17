@@ -8,7 +8,7 @@ A small Node.js package that provides a collection of different ESLint configs u
 ## Installation
 
 > [!IMPORTANT]
-> My packages are available in GitHub packages, **NOT** npm. Therefore, you must define the registry of the `@cielsachen` namespace in a `.npmrc` file.
+> My packages are available in GitHub packages, **NOT** npm; therefore, you must define the registry of the `@cielsachen` namespace in a `.npmrc` file:
 >
 > ```properties
 > @cielsachen:registry=https://npm.pkg.github.com
