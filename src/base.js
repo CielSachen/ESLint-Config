@@ -82,6 +82,7 @@ export default tseslint.config(
       yoda: "error",
       "@typescript-eslint/explicit-function-return-type": ["error", { allowIIFEs: true }],
       "@typescript-eslint/no-empty-object-type": ["error", { allowInterfaces: "with-single-extends" }],
+      "@typescript-eslint/no-shadow": "error",
       "import/first": "error",
       "import/no-absolute-path": "error",
       "import/no-mutable-exports": "error",
