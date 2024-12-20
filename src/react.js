@@ -16,20 +16,20 @@ export default tseslint.config(
   jsxA11yPlugin.flatConfigs.strict,
   /** @type {Linter.Config} */ (reactPlugin.configs.flat.recommended),
   /** @type {Linter.Config} */ (reactPlugin.configs.flat["jsx-runtime"]),
+  // @ts-expect-error: The type of the default export is not being resolved properly.
+  reactRefreshPlugin.configs.vite,
   prettierConfig,
   {
     name: "cielsachen/react",
     plugins: {
       "react-compiler": reactCompilerPlugin,
       "react-hooks": /** @type {ESLint.Plugin} */ (reactHooksPlugin),
-      "react-refresh": reactRefreshPlugin,
     },
     languageOptions: { globals: { ...globals.browser }, parserOptions: { ecmaFeatures: { jsx: true } } },
     rules: {
       "react-compiler/react-compiler": "error",
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
-      "react-refresh/only-export-components": "warn",
     },
   },
 );

@@ -84,7 +84,6 @@ export default tseslint.config(
       "@typescript-eslint/no-empty-object-type": ["error", { allowInterfaces: "with-single-extends" }],
       "import/first": "error",
       "import/no-absolute-path": "error",
-      "import/no-duplicates": "error",
       "import/no-mutable-exports": "error",
       "import/no-named-default": "error",
       "import/no-self-import": "error",
