@@ -7,6 +7,7 @@ import reactPlugin from "eslint-plugin-react";
 import reactCompilerPlugin from "eslint-plugin-react-compiler";
 import reactHooksPlugin from "eslint-plugin-react-hooks";
 import reactRefreshPlugin from "eslint-plugin-react-refresh";
+import tailwindCssPlugin from "eslint-plugin-tailwindcss";
 import globals from "globals";
 import tseslint from "typescript-eslint";
 
@@ -18,7 +19,9 @@ export default tseslint.config(
   /** @type {Linter.Config} */ (reactPlugin.configs.flat["jsx-runtime"]),
   // @ts-expect-error: The type of the default export is not being resolved properly.
   reactRefreshPlugin.configs.vite,
+  tailwindCssPlugin.configs["flat/recommended"],
   prettierConfig,
+  { name: "cielsachen/react/plugin-configs-override", rules: { "tailwindcss/classnames-order": "off" } },
   {
     name: "cielsachen/react",
     plugins: {
