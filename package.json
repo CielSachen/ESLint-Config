@@ -1,0 +1,90 @@
+{
+  "name": "@cielsachen/eslint-config",
+  "version": "1.0.0",
+  "description": "The collection of CielSachen's ESLint configs.",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "javascript",
+    "nodejs",
+    "react",
+    "typescript"
+  ],
+  "homepage": "https://github.com/CielSachen/ESLint-Config#readme",
+  "bugs": {
+    "url": "https://github.com/CielSachen/ESLint-Config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CielSachen/ESLint-Config.git"
+  },
+  "license": "MIT",
+  "author": "CielSachen",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.js",
+      "types": "./src/index.d.ts"
+    },
+    "./base": {
+      "default": "./src/base.js",
+      "types": "./src/base.d.ts"
+    },
+    "./react": {
+      "default": "./src/react.js",
+      "types": "./src/react.d.ts"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "dependencies": {
+    "@eslint/js": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.7.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsdoc": "^50.6.1",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-n": "^17.15.1",
+    "eslint-plugin-react": "^7.37.3",
+    "eslint-plugin-react-compiler": "19.0.0-beta-df7b47d-20241124",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "eslint-plugin-security": "^3.0.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-tailwindcss": "^3.17.5",
+    "eslint-plugin-unicorn": "^56.0.1",
+    "globals": "^15.14.0"
+  },
+  "devDependencies": {
+    "@types/eslint-config-prettier": "^6.11.3",
+    "@types/eslint-plugin-jsx-a11y": "^6.10.0",
+    "@types/eslint-plugin-security": "^3.0.0",
+    "@types/eslint-plugin-tailwindcss": "^3.17.0",
+    "@types/node": "^22.10.2",
+    "eslint": "^9.17.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.2"
+  },
+  "peerDependencies": {
+    "eslint": "~9",
+    "typescript": "~5",
+    "typescript-eslint": "~8"
+  },
+  "packageManager": "pnpm@9.15.1+sha512.1acb565e6193efbebda772702950469150cf12bcc764262e7587e71d19dc98a423dff9536e57ea44c49bdf790ff694e83c27be5faa23d67e0c033b583be4bfcf",
+  "engines": {
+    "node": ">=22.11.0",
+    "pnpm": "9.15.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  }
+}
