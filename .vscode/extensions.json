@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    /* Language Support */
+    "redhat.vscode-yaml",
+
+    /* Intellicode */
+    "visualstudioexptteam.intellicode-api-usage-examples",
+    "visualstudioexptteam.vscodeintellicode",
+
+    /* Formatting and Linting */
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+
+    /* GitHub */
+    "github.vscode-github-actions",
+    "github.vscode-pull-request-github"
+  ]
+}
