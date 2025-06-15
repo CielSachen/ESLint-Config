@@ -114,6 +114,7 @@ export default defineConfig(
       "prefer-spread": "error",
       "prefer-template": "error",
       radix: "error",
+      "unicorn/switch-case-braces": ["error", "avoid"],
       yoda: "error",
 
       /* Importing and Exporting */
